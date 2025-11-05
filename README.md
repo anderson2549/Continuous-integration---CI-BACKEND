@@ -22,7 +22,7 @@ mvn clean package -DskipTests
 Luego levanta los contenedores:
 
 ```bash
-docker compose up --build
+docker-compose up --build
 ```
 
 La API estará en `http://localhost:8080`
